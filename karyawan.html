@@ -40,7 +40,6 @@ nav{
 .Sidebar{
     width: 16rem;
     height: 28rem;
-    margin-top: -.7rem;
     background-color: rgba(50, 205, 50, 0);
     background-image: linear-gradient(to bottom, rgb(61, 117, 61), #1a3423);
 }
@@ -54,169 +53,24 @@ nav{
 .container{
     display: flex;
     margin-left: 0rem;
-    align-items: center;
     justify-content: space-between;
 }
 .content{
     margin-left: 3rem;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
+    height: auto;
 }
-.content > .karyawan1{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+a{
+  text-decoration: none;
+  color: #1e1e1e;
 }
-.contentA{
-    padding: 2rem;
-    width: 12rem;
-    height: 25rem;
-    border-right: .6rem solid;
-    border-image: linear-gradient(to bottom, #FAB02F, #D28908) 1;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    justify-self: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.foto-karyawan{
+  width: 10%;
 }
-.contentA:hover{
-    box-shadow: #2125296c 2px 2px 2px 2px;
-    transition: .3s;
+td img{
+  width: 50%;
+  border-radius: 100px;
 }
-.contentA .Karyawan1img img{
-    width: 80%;
-}
-.contentA .Karyawan1text{
-    align-items: center;
-    justify-content: center;
-}
-.contentA .Karyawan1text p{
-    text-align: end;
-}
-.Karyawan4{
-    width: 13rem;
-    height: 28rem;
-    border-right: .6rem solid;
-    border-image: linear-gradient(to bottom, #fd8383, #F35555) 1;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-.Karyawan4:hover{
-    box-shadow: #2125296c 2px 2px 2px 2px;
-    transition: .3s;
-}
-.Karyawan4 .Cimg img{
-    width: 50%;
-}
-.Karyawan4 .Karyawan4text{
-    align-items: center;
-    justify-content: center;
-}
-.Karyawan4 .Karyawan4text p{
-    text-align: end;
-}
-.Karyawan5{
-    width: 13rem;
-    height: 28rem;
-    border-right: .6rem solid;
-    border-image: linear-gradient(to bottom, #9EC74D, #80A92D) 1;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-.Karyawan5:hover{
-    box-shadow: #2125296c 2px 2px 2px 2px;
-    transition: .3s;
-}
-.Karyawan5 .Karyawan5img img{
-    width: 50%;
-}
-.Karyawan5 .Karyawan5text{
-    align-items: center;
-    justify-content: center;
-}
-.Karyawan5 .Karyawan5text p{
-    text-align: end;
-}
-.contentB{
-    display: flex;
-    flex-direction: column;
-    width: 14rem;
-    height: 28rem;
-    justify-content: center;
-    gap: 1.8rem;
-}
-.contentB div{
-    height: 13rem;
-}
-.contentB > .Karyawan2{
-    display: flex;
-    flex-direction: column;
-    border-right: .6rem solid;
-    border-image: linear-gradient(to bottom, #3FBCFF, #0077B6) 1;
-    padding-top: 15%;
-    align-items: center;
-    text-align: end;
-    gap: -2rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.Karyawan2:hover{
-    box-shadow: #2125296c 2px 2px 2px 2px;
-    transition: .3s;
-}
-.contentB .Karyawan2 .Karyawan2img img{
-    width: 50%;
-}
-.contentB .Karyawan2 .Karyawan2text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.contentB .Karyawan2 .Karyawan2text p{
-    margin-left: 70%;
-}
-.contentB > .Karyawan3{
-        display: flex;
-        flex-direction: column;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #9970e4, #584085) 1;
-        padding-top: 15%;
-        align-items: center;
-        text-align: end;
-        gap: 2rem;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    }
-.Karyawan3:hover{
-    box-shadow: #2125296c 2px 2px 2px 2px;
-    transition: .3s;
-}
-.contentB .Karyawan3 .Karyawan3img img{
-    width: 50%;
-}
-.contentB .Karyawan3 .Karyawan3text{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    margin-top: -46%;
-}
-.contentB .Karyawan3 .Karyawan3text p{
-    text-align: end;
-}
-
 
 @media only screen and (max-width: 1200px){
     
@@ -251,207 +105,6 @@ nav{
         justify-content: space-around;
         gap: 1rem;
     }
-    .content > .karyawan1{
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-        text-align: start;
-    }
-    .content .karyawan1 h2{
-        font-weight: bolder;
-    }
-    .contentA {
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        width: 15rem;
-        height: 7rem;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #FAB02F, #D28908) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        cursor: pointer;
-    }
-    .contentA:hover {
-        box-shadow: #2125296c 2px 2px 2px 2px;
-        transition: .3s;
-    }
-    .contentA .Karyawan1img img {
-        width: 74px;
-    }
-    .contentA .Karyawan1text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: larger;
-        padding-top: 10px;
-    }
-    .Karyawan1text h2 svg {
-        width: 40px;
-    }
-    .Karyawan1text h2 {
-        display: flex;
-    }  
-    .Karyawan4 {
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        width: 15rem;
-        height: 7rem;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #fd8383, #F35555) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        cursor: pointer;
-    }
-    .Karyawan4:hover {
-        box-shadow: #2125296c 2px 2px 2px 2px;
-        transition: .3s;
-    }
-    .Karyawan4 .Cimg img {
-        width: 74px;
-    }
-    .Karyawan4 .Karyawan4text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: larger;
-        padding-top: 10px;
-    }
-    .Karyawan4text h2 svg {
-        width: 40px;
-    }
-    .Karyawan4text h2 {
-        display: flex;
-    }
-    .Karyawan5 {
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        width: 15rem;
-        height: 7rem;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #FAB02F, #D28908) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        cursor: pointer;
-    }
-    .Karyawan5:hover {
-        box-shadow: #2125296c 2px 2px 2px 2px;
-        transition: .3s;
-    }
-    .Karyawan5 .Karyawan5img img {
-        width: 74px;
-    }
-    .Karyawan5 .Karyawan5text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: larger;
-        padding-top: 10px;
-    }
-    .Karyawan5text h2 svg {
-        width: 40px;
-    }
-    .Karyawan5text h2 {
-        display: flex;
-    }
-    .contentB{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        height: auto;
-    }
-    .contentB > .Karyawan2{
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        width: 15rem;
-        height: 7rem;
-        flex-wrap: wrap;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #fd8383, #F35555) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        margin-left: -6px;
-        cursor: pointer;
-    }
-    .Karyawan2:hover{
-        box-shadow: #2125296c 2px 2px 2px 2px;
-        transition: .3s;
-    }
-    .contentB .Karyawan2 .Karyawan2img img{
-        width: 74px;
-    }
-    .contentB .Karyawan2 .Karyawan2text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: larger;
-        padding-top: 10px;
-    }
-    .contentB .Karyawan2 .Karyawan2text h2{
-        display: flex;
-    }
-    .contentB .Karyawan2 .Karyawan2text h2 svg{
-        width: 40px;
-    }
-    .contentB > .Karyawan3{
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        width: 15rem;
-        height: 7rem;
-        flex-wrap: wrap;
-        border-right: .6rem solid;
-        border-image: linear-gradient(to bottom, #fd8383, #F35555) 1;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        margin-left: -6px;
-        cursor: pointer;
-    }
-    .Karyawan3:hover{
-        box-shadow: #2125296c 2px 2px 2px 2px;
-        transition: .3s;
-    }
-    .contentB .Karyawan3 .Karyawan3img img{
-        width: 74px;
-    }
-    .contentB .Karyawan3 .Karyawan3text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: larger;
-        padding-top: 10px;
-        padding-top: 100px;
-        margin-left: -64px;
-    }
-    .contentB .Karyawan3 .Karyawan3text h2{
-        display: flex;
-    }
-    .contentB .Karyawan3 .Karyawan3text h2 svg{
-        width: 40px;
-    }
-    .contentB .Karyawan3 .Karyawan3text p{
-        display: flex;
-        width: 100px;
-    }
 }
 </style>
 <body>  
@@ -484,7 +137,7 @@ nav{
       <div class="container bg-tertiary">
 
         <!-- sidebar -->
-        <div class="Sidebar d-flex flex-column flex-shrink-0 p-3 rounded">
+        <div class="Sidebar d-flex flex-column flex-shrink-0 p-3 rounded mt-3">
           <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item">
               <a href="dashboard.html" class="Home nav-link fw-bolder mb-1 mt-2" style="display: flex;">
@@ -514,75 +167,69 @@ nav{
       </div>
 
         <!-- content -->
-        <center>
           <div class="content container-fluid bg-danger-emphasis mt-3 mb-3">
-              <div class="karyawan1" onclick="window.location.href='#'">
-                  <h2>Karyawan</h2>
-                  <div class="contentA bg-light rounded-3">
-                  <div class="Karyawan1img">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="orange" class="bi bi-person-circle" viewBox="0 0 16 16">
-                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                    </svg>
-                  </div>
-                  <div class="Karyawan1text">
-                    <h2>Karyawan1</h2>
-                    <p>Area 1</p>
-                  </div>
-                  </div>
-              </div>
-              <div class="contentB rounded-3">
-                  <div class="Karyawan2 bg-light rounded-2" onclick="window.location.href='#'">
-                    <div class="Karyawan2img">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="light blue" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                      </svg>
-                    </div>
-                    <div class="Karyawan2text">
-                      <h2 style="display: flex;">Karyawan2</h2>
-                      <p>Area 1</p>
-                    </div>
-                  </div>
-                  <div class="Karyawan3 bg-light rounded-2" onclick="window.location.href='#'">
-                    <div class="Karyawan3img">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="purple" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                      </svg>
-                    </div>
-                    <div class="Karyawan3text">
-                      <h2 style="display: flex;">Karyawan3</h2>
-                      <p style="margin-left: 70%;">Area 1</p>
-                    </div>
-                  </div>
-              </div>
-              <div class="Karyawan4 bg-light rounded-3" onclick="window.location.href='#'">
-                <div class="Cimg">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="red" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                  </svg>
-                </div>
-                <div class="Karyawan4text">
-                  <h2>Karyawan 4</h2>
-                  <p>Area 1</p>
-                </div>
-              </div>
-              <div class="Karyawan5 bg-light rounded-3" onclick="window.location.href='#'">
-                <div class="Karyawan5img">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="lightgreen" class="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                  </svg>
-                </div>
-                <div class="Karyawan5text">
-                  <h2>Karyawan 5</h2>
-                  <p>Area 1</p>
-                </div>
-              </div>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nama Karyawan</th>
+                    <th scope="col">Area Penugasan</th>
+                    <th scope="col" class="foto-karyawan"> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">001</a></th>
+                    <td id="nama-karyawan">Budi Santoso</td>
+                    <td id="area-karyawan">Area Mangga</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-1.jpg" alt="foto karyawan" class="budi-img">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">002</a></th>
+                    <td id="nama-karyawan">Adi Nugroho</td>
+                    <td id="area-karyawan">Area Mangga</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-2.jpg" alt="foto karyawan" class="adi-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">003</a></th>
+                    <td id="nama-karyawan">Rizky Ramadhan</td>
+                    <td id="area-karyawan">Area Anggur</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-3.jpg" alt="foto karyawan" class="rizky-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">004</a></th>
+                    <td id="nama-karyawan">Jacob</td>
+                    <td id="area-karyawan">Area Anggur</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-4.jpg" alt="foto karyawan" class="jacob-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">005</a></th>
+                    <td id="nama-karyawan">Yoga Saputra</td>
+                    <td id="area-karyawan">Area Jeruk</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-5.jpg" alt="foto karyawan" class="yoga-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">006</a></th>
+                    <td id="nama-karyawan">Dimas Anggara</td>
+                    <td id="area-karyawan">Area Jeruk</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-5.jpg" alt="foto karyawan" class="dimas-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">007</a></th>
+                    <td id="nama-karyawan">Kartika Sari</td>
+                    <td id="area-karyawan">Area Tomat</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-5.jpg" alt="foto karyawan" class="kartika-img">
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="karyawan-detail.html">008</a></th>
+                    <td id="nama-karyawan">Lestari Anggraini</td>
+                    <td id="area-karyawan">Area Tomat</td>
+                    <td id="foto-karyawan"><img src="img/karyawan-5.jpg" alt="foto karyawan" class="lestari-img">
+                  </tr>
+                </tbody>
+              </table>
           </div>
-      </center>
     </div>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
