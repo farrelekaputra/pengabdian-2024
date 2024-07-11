@@ -85,16 +85,16 @@ body {
     box-shadow: #2125296c 2px 2px 2px 2px;
     transition: .3s;
 }
-.Mango .Aimg img{
+.fruit-img img{
     width: 80%;
 }
-.Mango .Atext{
+/* .Mango .Atext{
     align-items: center;
     justify-content: center;
 }
 .Mango .Atext p{
     text-align: end;
-}
+} */
 .tomato{
     width: 12rem;
     height: 28rem;
@@ -112,16 +112,16 @@ body {
     box-shadow: #2125296c 2px 2px 2px 2px;
     transition: .3s;
 }
-.tomato .tomato-img img{
+.fruit-img img{
     width: 50%;
 }
-.tomato .tomato-text{
+/* .tomato .tomato-text{
     align-items: center;
     justify-content: center;
 }
 .tomato .tomato-text p{
     text-align: end;
-}
+} */
 .avocado{
     width: 12rem;
     height: 28rem;
@@ -139,16 +139,16 @@ body {
     box-shadow: #2125296c 2px 2px 2px 2px;
     transition: .3s;
 }
-.avocado .avocado-img img{
+.fruit-img img{
     width: 50%;
 }
-.avocado .Dtext{
+/* .avocado .Dtext{
     align-items: center;
     justify-content: center;
 }
 .avocado .Dtext p{
     text-align: end;
-}
+} */
 .contentB{
     display: flex;
     flex-direction: column;
@@ -177,10 +177,10 @@ body {
     box-shadow: #2125296c 2px 2px 2px 2px;
     transition: .3s;
 }
-.contentB .Orange .Orangeimg img{
+.fruit-img img{
     width: 36%;
 }
-.contentB .Orange .Orangetext{
+/* .contentB .Orange .Orangetext{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,7 @@ body {
 .contentB .Orange .Orangetext p{
     text-align: end;
     margin-left: 20px;
-}
+} */
 .contentB > .grape{
     display: flex;
     flex-direction: column;
@@ -207,17 +207,17 @@ body {
     box-shadow: #2125296c 2px 2px 2px 2px;
     transition: .3s;
 }
-.contentB .grape .grapeimg img{
+.fruit-img img{
     width: 36%;
 }
-.contentB .grape .grapetext{
+.fruit-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -80%;
+    margin-top: -30%;
 }
-.contentB .grape .grapetext p{
+ .fruit-text p{
     text-align: end;
 }
 
@@ -279,10 +279,10 @@ body {
         box-shadow: #2125296c 2px 2px 2px 2px;
         transition: .3s;
     }
-    .Mango .Aimg img {
+    .fruit-img img {
         width: 74px;
     }
-    .Mango .Atext {
+    /* .Mango .Atext {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -295,7 +295,7 @@ body {
     }
     .Atext h2 {
         display: flex;
-    }  
+    }   */
     .tomato {
         padding: 10px;
         display: flex;
@@ -312,10 +312,10 @@ body {
         box-shadow: #2125296c 2px 2px 2px 2px;
         transition: .3s;
     }
-    .tomato .tomato-img img {
+    .tomato .fruit-img img {
         width: 74px;
     }
-    .tomato .tomato-text {
+    /* .tomato .tomato-text {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -328,7 +328,7 @@ body {
     }
     .tomato-text h2 {
         display: flex;
-    }
+    } */
     .avocado {
         padding: 10px;
         display: flex;
@@ -345,10 +345,10 @@ body {
         box-shadow: #2125296c 2px 2px 2px 2px;
         transition: .3s;
     }
-    .avocado .avocado-img img {
+    .fruit-img img {
         width: 74px;
     }
-    .avocado .Dtext {
+    /* .avocado .Dtext {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -361,7 +361,7 @@ body {
     }
     .Dtext h2 {
         display: flex;
-    }
+    } */
     .contentB{
         display: flex;
         flex-direction: column;
@@ -388,60 +388,71 @@ body {
         box-shadow: #2125296c 2px 2px 2px 2px;
         transition: .3s;
     }
-    .contentB .Orange .Orangeimg img{
+    .fruit-img img{
         width: 74px;
     }
-    .contentB .Orange .Orangetext{
+    .contentB .Orange .fruit-text{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         font-size: larger;
-        padding-top: 10px;
+        margin-top: -100px;
+        color: #1e1e1e;
     }
-    .contentB .Orange .Orangetext h2{
+    /* .contentB .Orange .Orangetext h2{
         display: flex;
     }
     .contentB .Orange .Orangetext h2 svg{
         width: 40px;
     }
+    .contentB .Orange .Orangetext p{
+        display: flex;
+        width: 100px;
+        margin-left: 50px;
+    } */
     .contentB > .grape{
         padding: 10px;
         display: flex;
         flex-direction: column;
+        gap: 60px;
         width: 15rem;
         height: 7rem;
         flex-wrap: wrap;
         border-right: .6rem solid;
         border-image: linear-gradient(to bottom, #fd8383, #F35555) 1;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        margin-left: 8px;
         align-items: center;
         justify-content: space-around;
         text-align: center;
+        margin-left: 7px;
     }
     .grape:hover{
         box-shadow: #2125296c 2px 2px 2px 2px;
         transition: .3s;
     }
-    .contentB .grape .grapeimg img{
+    .fruit-img img{
         width: 74px;
     }
-    .contentB .grape .grapetext{
+    .contentB .grape .fruit-text{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         font-size: larger;
-        padding-top: 10px;
-        padding-top: 100px;
-        margin-left: -64px;
+        margin-left: -60px;
+        margin-top: 16px;
     }
-    .contentB .grape .grapetext h2{
+    .contentB .grape .fruit-text h2{
         display: flex;
     }
-    .contentB .grape .grapetext h2 svg{
+    .contentB .grape .fruit-text h2 svg{
         width: 40px;
+    }
+    .contentB .grape .fruit-text p{
+        display: flex;
+        width: 100px;
+        margin-left: 50px;
     }
 }
 </style>
@@ -505,14 +516,12 @@ body {
         </div>
 
         <!-- content -->
-        <center>
           <div class="content bg-danger-emphasis mt-3 mb-3">
               <div class="first">
                   <h2>Home</h2>
-                  <a href="mangga.html" style="text-decoration: none; color: #1e1e1e;">
-                  <div class="Mango bg-light rounded-3">
-                    <div class="Aimg"><img src="img/mango.png" alt=""></div>
-                    <div class="Atext">
+                  <div class="Mango bg-light rounded-3" onclick="window.location.href='mangga.html'">
+                    <div class="fruit-img"><img src="img/mango.png" alt=""></div>
+                    <div class="fruit-text" style="margin-top: 10px;">
                       <h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
                           <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0q.164.544.371 1.038c.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8m.413 1.021A31 31 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
@@ -522,12 +531,11 @@ body {
                       <p>Area1</p>
                     </div>
                   </div>
-                </a>
               </div>
               <div class="contentB rounded-3">
-                <div class="Orange bg-light rounded-2" onclick="window.location.href='jeruk.html'">
-                        <div class="Orangeimg"><img src="img/orange.png" alt=""></div>
-                        <div class="Orangetext">
+                <div class="Orange bg-light rounded-2" onclick="window.location.href='mangga.html'">
+                        <div class="fruit-img"><img src="img/orange.png" alt=""></div>
+                        <div class="fruit-text">
                             <label id="orange-waterlevel">
                                 <h2 style="display: flex;">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
@@ -540,27 +548,25 @@ body {
                             <p style="margin-left: 46px;">Area 1</p>
                         </div>
                     </div>
-                
-                  <div class="grape bg-light rounded-2">
-                    <a href="anggur.html" style="text-decoration: none;color: #1e1e1e;">
-                    <div class="grapeimg"><img src="img/grape.png" alt=""></div>
-                    <div class="grapetext">
-                      <h2 style="display: flex;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0q.164.544.371 1.038c.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8m.413 1.021A31 31 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
-                          <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87z"/>
-                        </svg>
-                        20%
-                      </h2>
-                      <p style="margin-left: 46px;">Area 1</p>
-                    </div>
-                </a>
-                  </div>
+                    <!-- anggur -->
+                    <div class="grape bg-light rounded-2" onclick="window.location.href='anggur.html'">
+                        <div class="fruit-img"><img src="img/grape.png" alt=""></div>
+                        <div class="fruit-text">
+                          <label id="grape-waterlevel">
+                            <h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
+                                  <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0q.164.544.371 1.038c.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8m.413 1.021A31 31 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                                  <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87z"/>
+                                </svg>20%
+                              </h2>
+                          </label>  
+                        <p>Area 1</p>
+                        </div>
+                      </div>
               </div>
-              <a href="tomat.html" style="text-decoration: none;color: #1e1e1e;">
-                <div class="tomato bg-light rounded-3">
-                    <div class="tomato-img"><img src="img/tomato.png" alt=""></div>
-                    <div class="tomato-text">
+                <div class="tomato bg-light rounded-3" onclick="window.location.href='mangga.html'">
+                    <div class="fruit-img"><img src="img/tomato.png" alt=""></div>
+                    <div class="fruit-text" style="margin-top: 10px;" >
                         <label id="tomato-waterlevel">
                             <h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
@@ -573,11 +579,9 @@ body {
                     <p>Area 1</p>
                     </div>
                 </div>
-                </a>
-            <a href="alpukat.html" style="text-decoration: none;color: #1e1e1e;">
-              <div class="avocado bg-light rounded-3">
-                <div class="avocado-img"><img src="img/avocado.png" alt=""></div>
-                <div class="avocado-text">
+              <div class="avocado bg-light rounded-3" onclick="window.location.href='mangga.html'">
+                <div class="fruit-img"><img src="img/avocado.png" alt=""></div>
+                <div class="fruit-text" style="margin-top: 10px;">
                     <label id="avocado-waterlevel">
                         <h2>
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-droplet" viewBox="0 0 16 16">
@@ -590,7 +594,6 @@ body {
                   <p>Area 1</p>
                 </div>
               </div>
-            </a>
           </div>
       </center>
     </div>
